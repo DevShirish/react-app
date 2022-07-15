@@ -1,0 +1,1 @@
+This folder is used to keep assets used by application. It could be any file

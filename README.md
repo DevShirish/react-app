@@ -1,3 +1,31 @@
+## About this project
+
+Idea or thought behind technical implementation is divide big problem to multiple small problems. Small problems are nothing but basic components implemented in project. Application will lose its state on reloading.
+
+# Thoughts on basic components
+
+Basic components will solve very small problems or basic problems in application. Such as input value, or a content editable div as input. These components when used along will create multiple views to interact with each other. 
+
+## What I thought should be extended
+
+This implementation is implemented by thinking in perspective of react. But I always wonder if I could build framework-less components. Then could write Bridges, Abstractions around frameworks for components that are framework-less.
+
+Most of things are still remaining. I have added comments in few component as of now with first commit.
+
+## QUESTIONS
+
+# What was easy building in application?
+
+To implement basic components. Why? problems are small
+
+# What was hard building in application?
+
+Exact calculation of placement of icon in editor it is still buggy but can be solved in next iteration. To think if should I go with canvas or layer implementation for editor. But extension in futures might need canvas for few use cases.
+
+# What would I want to do next
+
+As said build framework-less components and make it open source.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -13,11 +41,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -44,3 +67,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
