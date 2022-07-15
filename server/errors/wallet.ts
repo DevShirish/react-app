@@ -1,5 +1,0 @@
-export enum WalletErrors {
-    UNABLE_TO_CREATE_WALLET,
-    UNABLE_TO_FIND_WALLET,
-    UNABLE_TO_UPDATE_WALLET
-}
