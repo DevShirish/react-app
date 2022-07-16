@@ -6,7 +6,22 @@ Idea or thought behind technical implementation is divide big problem to multipl
 
 Checkout this video
 
-[demo.webm](https://user-images.githubusercontent.com/19300498/179339342-74cbc914-8994-40c2-a986-31e0ec010013.webm)
+[Application Demo run](https://user-images.githubusercontent.com/19300498/179339342-74cbc914-8994-40c2-a986-31e0ec010013.webm)
+
+# Tech stacks
+
+I have used React 17 to develop this requirement.
+
+## Third party modules
+
+- [reactjs-popup](https://github.com/yjose/reactjs-popup)
+- [react-dropzone](https://github.com/react-dropzone/react-dropzone/)
+- [react-virtualized](https://github.com/bvaughn/react-virtualized)
+- [react-redux](https://github.com/reduxjs/react-redux)
+
+# Architecture of Application
+
+[Application Component Diagram](https://user-images.githubusercontent.com/19300498/179339737-c18d60ab-00e2-46d8-9183-8575a82be5f7.png)
 
 # Thoughts on basic components
 
@@ -15,6 +30,8 @@ Basic components will solve very small problems or basic problems in application
 ## What I thought should be extended
 
 This implementation is implemented by thinking in perspective of react. But I always wonder if I could build framework-less components. Then could write Bridges, Abstractions around frameworks for components that are framework-less.
+
+Comment list component implemented needs to be implemented using basic component. but due to time crunch it is implemented without basic component but breaking into small components.
 
 Most of things are still remaining. I have added comments in few component as of now with first commit.
 
