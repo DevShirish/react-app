@@ -2,6 +2,12 @@
 
 Idea or thought behind technical implementation is divide big problem to multiple small problems. Small problems are nothing but basic components implemented in project. Application will lose its state on reloading.
 
+# Demo
+
+Checkout this video
+
+[demo.webm](https://user-images.githubusercontent.com/19300498/179339342-74cbc914-8994-40c2-a986-31e0ec010013.webm)
+
 # Thoughts on basic components
 
 Basic components will solve very small problems or basic problems in application. Such as input value, or a content editable div as input. These components when used along will create multiple views to interact with each other. 
